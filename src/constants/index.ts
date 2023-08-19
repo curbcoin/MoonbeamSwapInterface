@@ -9,8 +9,8 @@ import {
 } from '../connectors';
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
-export const FACTORY_ADDRESS = '0x1FabE390868058C746Ff151032b79b910e4194cb';
-export const ROUTER_ADDRESS = '0x2d78c1F4Eb5F3A6065E0038a5D1F3577f9062e92';
+export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f ';
+export const ROUTER_ADDRESS = '0x81D69A8dC9364Cfb8273B1b55F9d4715Ec782fd9';
 
 export const LP_TOKEN_NAME = 'Uniswap V2';
 export const LP_TOKEN_SYMBOL = 'UNI-V2';
@@ -34,7 +34,7 @@ export const DAI_MOONBEAM = new Token(ChainId.MOONBEAM, '0x765277EebeCA2e31912C9
 export const USDC_MOONBEAM = new Token(ChainId.MOONBEAM, '0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b', 6, 'USDC', 'USD//C');
 export const USDT_MOONBEAM = new Token(ChainId.MOONBEAM, '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73', 6, 'USDT', 'Tether USD');
 export const BUSD_MOONBEAM = new Token(ChainId.MOONBEAM, '0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F', 18, 'BUSD', 'Binance USD');
-export const ETH_MOONBEAM = new Token(ChainId.MOONBEAM, '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f', 18, 'ETH', 'Ether');
+export const ETH_MOONBEAM = new Token(ChainId.MOONBEAM, '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 18, 'ETH', 'Ether');
 export const BNB_MOONBEAM = new Token(ChainId.MOONBEAM, '0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055', 18, 'BNB', 'Binance Token');
 
 
