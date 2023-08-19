@@ -245,7 +245,7 @@ const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Goerli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.ETHEREUM]: 'Ethereum',
+  [ChainId.MOONBEAM]: 'MOONBEAM',
 };
 
 export default function Header() {
